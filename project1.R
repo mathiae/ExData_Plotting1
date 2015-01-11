@@ -32,7 +32,7 @@ legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"),le
 with(electricity,plot(date_time,Voltage,type="l"))
 # sub plot 4 
 with(electricity,plot(date_time,Global_reactive_power,type="l"))
-dev.copy(png,file="figure/plot3.png")
+dev.copy(png,file="figure/plot4.png")
 dev.off()
 
 
