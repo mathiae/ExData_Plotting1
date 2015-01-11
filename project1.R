@@ -16,7 +16,7 @@ dev.off()
 with(electricity,plot(date_time,Sub_metering_1,type="l",ylab="Energy Sub metering",xlab=""))
 with(electricity,points(date_time,Sub_metering_2,type="l",col="red"))
 with(electricity,points(date_time,Sub_metering_3,type="l",col="blue"))
-legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"),legend=c("sub_metering_1","sub_metering_2","sub_metering_3"))
+legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"),legend=c("sub_metering_1","sub_metering_2","sub_metering_3"),cex=0.75)
 dev.copy(png,file="figure/plot3.png")
 dev.off()
 #plot 4 
@@ -27,7 +27,7 @@ with(electricity,plot(date_time,Global_active_power,type="l",ylab="Global Active
 with(electricity,plot(date_time,Sub_metering_1,type="l",ylab="Energy Sub metering",xlab=""))
 with(electricity,points(date_time,Sub_metering_2,type="l",col="red"))
 with(electricity,points(date_time,Sub_metering_3,type="l",col="blue"))
-legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"),legend=c("sub_metering_1","sub_metering_2","sub_metering_3"))
+legend("topright",lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"),legend=c("sub_metering_1","sub_metering_2","sub_metering_3"),cex=0.75)
 # sub plot 3 
 with(electricity,plot(date_time,Voltage,type="l"))
 # sub plot 4 
